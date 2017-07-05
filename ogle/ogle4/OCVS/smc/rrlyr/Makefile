@@ -1,12 +1,17 @@
-get_data: download_files get_light_curves
+get_data: get_data_files get_light_curves
 
-download_files:
+get_data_files: download_data_files process_data_files
+
+download_data_files:
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/README
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/RRab.dat
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/RRc.dat
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/RRd.dat
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/aRRd.dat
 	wget ftp://ftp.astrouw.edu.pl/ogle/ogle4/OCVS/smc/rrlyr/ident.dat
+
+process_data_files:
+	python3 process_dat_files.py
 
 get_light_curves: download_light_curves extract_light_curves process_light_curves
 
