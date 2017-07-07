@@ -8,6 +8,8 @@ These are various scripts I have writen for downloading and pre-process specific
   * Kim, D.-W., Protopapas, P., Bailer-Jones, C. A. L., Byun, Y.-I., Chang, S.-W., Marquette, J.-B., & Shin, M.-S. (2014). The EPOCH Project: I. Periodic variable stars in the EROS-2 LMC database. Astronomy & Astrophysics, 566, A43. https://doi.org/10.1051/0004-6361/201323252
 
 ### OGLE
+* **OGLE III BLG Cepheids**
+  * Soszynski, I., Udalski, A., Pietrukowicz, P., Szymanski, M. K., Kubiak, M., Pietrzynski, G., … Kozlowski, S. (2011). The Optical Gravitational Lensing Experiment. The OGLE-III Catalog of Variable Stars. XIV. Classical and Type II Cepheids in the Galactic Bulge. ArXiv:1112.1406 [Astro-Ph]. Retrieved from http://arxiv.org/abs/1112.1406
 * **OGLE IV LMC Cepheids**
   * Soszynski, I., Udalski, A., Szymanski, M. K., Skowron, D., Pietrzynski, G., Poleski, R., … Pawlak, M. (2016). The OGLE Collection of Variable Stars. Classical Cepheids in the Magellanic System. ArXiv:1601.01318 [Astro-Ph]. Retrieved from http://arxiv.org/abs/1601.01318
 * **OGLE IV SMC Cepheids**
