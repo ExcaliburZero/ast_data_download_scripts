@@ -1,4 +1,4 @@
-get_data: get_catalog
+get_data: get_catalog get_light_curves
 
 get_catalog: download_catalog process_catalog
 
